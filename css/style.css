@@ -16,6 +16,7 @@ header li {
 }
 header p {
   display: inline-block;
+
 }
 .heroImg {
   background-color: #EBEBEB;
@@ -39,6 +40,7 @@ button {
 #mylogo {
   font-size: 26px;
   height:28px;
+  letter-spacing: 5px;
 }
 
 
