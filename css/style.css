@@ -107,83 +107,160 @@ button {
 /* portfolio grid end */
 
 
+/* uxui skill grid start */
 
-/* skill grid start */
+.uxuiskillscontainer {
+  margin:20px;
+  padding:10px;
+ 
+  
+}
 
+
+.uxuiskills {
+  width:50%;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "us us"
+  "us1 us1-2"
+  "us2 us2-2"    
+  "us3 us3-2"
+  "us4 us4-2"
+  "us5 us5-2"
+  "us6 us6-2"  
+  "us7 us7-2"
+  "us8 us8-2" ;
+}
+
+.us {
+  grid-area:us;
+}
+.us1 {
+  grid-area:us1;
+}
+.us2 {
+  grid-area:us2;
+}
+.us3 {
+  grid-area:us3;
+}
+.us4 {
+  grid-area:us4;
+}
+.us5 {
+  grid-area:us5;
+}
+.us6 {
+  grid-area:us6;
+}
+.us7 {
+  grid-area:us7;
+}
+
+.us1-2 {
+  grid-area:us1-2;
+}
+.us2-2 {
+  grid-area:us2-2;
+}
+.us3-2 {
+  grid-area:us3-2;
+}
+.us4-2 {
+  grid-area:us4-2;
+}
+.us5-2 {
+  grid-area:us5-2;
+}
+.us6-2 {
+  grid-area:us6-2;
+}
+.us7-2 {
+  grid-area:us7-2;
+}
+
+/* uxui skill grid end */
+
+
+/* tech skill grid start */
+
+
+.technicalskillscontainer {
+  margin:20px;
+  padding:10px;
+ 
+}
 
 
 .technicalskills {
-  width:60%;
+  width:50%;
   margin:0 auto;
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-  "row1 row1"
-  "row2 row2-1"
-  "row3 row3-1"    
-  "row4 row4-1"
-  "row5 row5-1"
-  "row6 row6-1"
-  "row7 row7-1"  
-  "row8 row8-1" ;
+  "ts ts"
+  "ts1 ts1-2"
+  "ts2 ts2-2"    
+  "ts3 ts3-2"
+  "ts4 ts4-2"
+  "ts5 ts5-2"
+  "ts6 ts6-2"  
+  "ts7 ts7-2" 
+  ;
 }
 
-.row1 {
-  grid-area:row1;
+.ts {
+  grid-area:ts;
 }
-.row2 {
-  grid-area:row2;
+.ts1 {
+  grid-area:ts1;
 }
-.row3 {
-  grid-area:row3;
+.ts2 {
+  grid-area:ts2;
 }
-.row4 {
-  grid-area:row4;
+.ts3 {
+  grid-area:ts3;
 }
-.row5 {
-  grid-area:row5;
+.ts4 {
+  grid-area:ts4;
 }
-.row6 {
-  grid-area:row6;
+.ts5 {
+  grid-area:ts5;
 }
-.row7 {
-  grid-area:row7;
+.ts6 {
+  grid-area:ts6;
 }
-.row8 {
-  grid-area:row8;
+.ts7 {
+  grid-area:ts7;
 }
-.row2-1 {
-  grid-area:row2-1;
+
+.ts1-2 {
+  grid-area:ts1-2;
 }
-.row3-1 {
-  grid-area:row3-1;
+.ts2-2 {
+  grid-area:ts2-2;
 }
-.row4-1 {
-  grid-area:row4-1;
+.ts3-2 {
+  grid-area:ts3-2;
 }
-.row5-1 {
-  grid-area:row5-1;
+.ts4-2 {
+  grid-area:ts4-2;
 }
-.row6-1 {
-  grid-area:row6-1;
+.ts5-2 {
+  grid-area:ts5-2;
 }
-.row7-1 {
-  grid-area:row7-1;
+.ts6-2 {
+  grid-area:ts6-2;
 }
-.row8-1 {
-  grid-area:row8-1;
+.ts7-2 {
+  grid-area:ts7-2;
 }
 
 /* skill grid end */
-
-
-
-
-
-
-
-
 
 
 footer {
