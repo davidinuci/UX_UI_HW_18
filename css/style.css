@@ -5,6 +5,7 @@ body {
 header {
   background-color: #ffffff;
   padding: 15px;
+ 
 }
 header ul {
   float: right;
@@ -15,9 +16,10 @@ header li {
   padding: 0px 2px;
 }
 header p {
-  display: inline-block;
-
+  display: block;
 }
+
+
 .heroImg {
   background-color: #EBEBEB;
   padding: 100px 15px;
@@ -37,13 +39,26 @@ button {
   border-radius: 4px;
 }
 
+
 #mylogo {
-  font-size: 26px;
-  height:28px;
+  font-size: 20px;
+  height:24px;
   letter-spacing: 5px;
+
+}
+
+#title {
+  font-size: 16px;
+  height:18px;
+  display:block;
+
 }
 
 
+.navitem {
+
+
+}
 
 
 /* portfolio grid start */
